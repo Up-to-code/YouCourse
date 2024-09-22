@@ -91,8 +91,7 @@ body {
   }
 }
 ::selection {
-  color: var(--foreground);
-  background: var(--secondary);
+   @apply bg-zinc-800 text-white dark:bg-red-400 dark:text-white;
 }
 
 @layer components {
